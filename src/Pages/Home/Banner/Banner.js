@@ -30,7 +30,7 @@ const Banner = () => {
                                 <h1>{state.title}</h1>
                                 <p>{state.text}</p>
                                 <div className="header_button">
-                                    <a href="" className="btn btn-outline">Download Resume</a>
+                                    <a href="https://drive.google.com/uc?export=download&id=1vJlEmGSGV-Zg8v5JkQ4-ExtQA2Jb6f7O" className="btn btn-outline">Download Resume</a>
                                 </div>
                             </div>
                         </div>
