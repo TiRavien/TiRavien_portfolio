@@ -1,38 +1,134 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  font-family: 'Poppins', sans-serif;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.header{
+  background-color: rgb(41, 41, 61);
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.menubar{
+  width: 100%;
+  height: 100px;
+  position: fixed;
+  top: 0;
+  background-color: rgb(37, 37, 66);
+}
+.menubar_container{
   display: flex;
-  flex-direction: column;
+  height: 100px;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content: space-between;
+}
+.menubar_left_logo img{
+  width: 70px;
+}
+.menubar_right{
+  display: flex;
+  list-style-type: none;
+}
+.menubar_right li a{
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  font-size: 18px;
+  padding: 0 15px;
+}
+.container{
+  width: 950px;
+  margin: 0 auto;
+}
+.row{
+  display: flex;
+  width: 100%;
+}
+.col-6{
+  width: 50%;
+}
+.header_icon{
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
   color: white;
 }
+.header_ul{
+  list-style-type: none;
+  display: flex;
+  margin-top: 20px;
+}
+.header_ul li{
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  margin: 0 10px;
 
-.App-link {
-  color: #61dafb;
+}
+.header_ul li:first-child{
+  margin-left: 0;
+}
+.header_section h1{
+  font-size: 55px;
+  font-weight: 700px;
+  margin-bottom: 20px;
+}
+.header_section p{
+  font-size: 25px;
+  font-weight: 300;
+  line-height: 40px;
+  margin-bottom: 20px;
+}
+.btn{
+  outline: none;
+  border: none;
+  color: white;
+  
+  text-decoration: none;
+}
+.btn-outline{
+border: 2px solid #ff4a57;
+border-radius: 50px;
+margin-top: 20px;
+padding: 6px 10px;
+}
+.header_image{
+  padding: 0 10px;
+  margin-top: 100px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Projects */
+.projects{
+background-color: rgb(41, 41, 61);
+padding: 100px 0;
+color: white;
+}
+.common{
+  width: 33.33333333333333%;
+  margin: 20px auto;
+  text-align: center;
+}
+.header{
+  margin-bottom: 20px;
+  font-weight: 500;
+  color: #ff4a57;
+  font-size: 15px;
+}
+.mainHeader{
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.mainContant{
+  font-size: 15px;
+  color: blanchedalmond;
+}
+.commonBorder{
+  background:  #ff4a57;
+  height: 3px;
+  width: 100px;
+  margin: 30px auto;
 }
