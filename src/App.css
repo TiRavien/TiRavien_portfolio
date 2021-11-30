@@ -69,6 +69,7 @@ body{
   height: 50px;
   border: 2px solid #ff4a57;
   display: flex;
+  color: white;
   border-radius: 50%;
   align-items: center;
   justify-content: center;

@@ -13,7 +13,7 @@ const Contact = () => {
                             <div className="contactSection-logo">
                                 <img src="/images/logo.png" alt="" />
                             </div>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt voluptatum, harum laborum corrupti adipisci cum rerum officiis consequatur libero nemo dolores. Reiciendis, dignissimos ipsa quaerat aspernatur optio sit quam nesciunt!</p>
+                            <p>A web developer is a programmer who specializes in, or is specifically engaged in, the development of World Wide Web applications using a client–server model.</p>
                             <ul className="contactCircles">
                                 <li><FaFacebook /></li>
                                 <li><FaInstagram /></li>
