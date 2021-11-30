@@ -1,6 +1,6 @@
 import React from 'react';
 import { GoMarkGithub, GoDeviceCamera } from "react-icons/go";
-import { FaJsSquare, FaReact } from "react-icons/fa";
+import { FaJsSquare, FaReact, FaBootstrap, FaCss3 } from "react-icons/fa";
 
 const Projects = () => {
     const [heading] = React.useState({ textHeader: 'PROJECTS', subHeader: 'My Projects', text: 'lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat quia animi in fuga non earum voluptatum velit, possimus praesentium. Quas, corrupti nostrum facilis quidem vel dolore aspernatur asperiores eligendi veritatis?' });
@@ -27,19 +27,19 @@ const Projects = () => {
         {
             id: 4,
             icon: <FaReact />,
-            header: 'Web Development',
+            header: 'React',
             text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque iste nobis porro pariatur in cumque'
         },
         {
             id: 5,
-            icon: 'GoMarkGithub',
-            header: 'Web Development',
+            icon: <FaBootstrap />,
+            header: 'Bootstrap',
             text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque iste nobis porro pariatur in cumque'
         },
         {
             id: 6,
-            icon: 'GoMarkGithub',
-            header: 'Web Development',
+            icon: <FaCss3 />,
+            header: 'CSS3',
             text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque iste nobis porro pariatur in cumque'
         }
     ])
@@ -57,8 +57,7 @@ const Projects = () => {
                         {state.map(info => (
                             <div className="col-4">
                                 <div className="projects_box">
-                                    {info.icon}
-                                    <GoMarkGithub className="commonIcons" />
+                                    <div className="commonIcons">{info.icon}</div>
                                     <div className="projects_box_header">{info.header}</div>
                                     <div className="projects_box_p">{info.text}</div>
                                 </div>
